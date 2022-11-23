@@ -5,30 +5,30 @@ version: "3"
 services:
   bitcoind:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   bitcored:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   bgoldd:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   feathercoind:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   groestlcoind:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   litecoind:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   viacoind:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
   dogecoind:
     environment:
-      DOGECOIN_EXTRA_ARGS: prune=5000
+      DOGECOIN_EXTRA_ARGS: prune=500
   monacoind:
     environment:
-      BITCOIN_EXTRA_ARGS: prune=5000
+      BITCOIN_EXTRA_ARGS: prune=500
 exclusive:
   - pruning
